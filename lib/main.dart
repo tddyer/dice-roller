@@ -22,15 +22,11 @@ class DicePage extends StatelessWidget {
       children: <Widget>[
         Expanded(
           flex: 1,
-          child: Image(
-            image: AssetImage('images/dice-1.png'),
-          ),
+          child: Image.asset('images/dice-1.png'),
         ),
         Expanded(
           flex: 1,
-          child: Image(
-            image: AssetImage('images/dice-2.png'),
-          ),
+          child: Image.asset('images/dice-2.png'),
         )
       ],
     );
